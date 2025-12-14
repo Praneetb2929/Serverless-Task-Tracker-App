@@ -1,0 +1,8 @@
+Project Approach (Brief)
+
+The project follows a fully serverless architecture using AWS services.
+The frontend is hosted on Amazon S3 as a static website. User authentication
+is handled using AWS Cognito. API Gateway exposes RESTful APIs and routes
+requests to AWS Lambda functions. These Lambda functions perform CRUD
+operations on DynamoDB. This approach ensures scalability, security, and
+cost efficiency without server management.
